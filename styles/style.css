@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header  */
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+/* final header  */
+/* nav */
+nav{
+    background-color: #1E172F;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 200px 5px 200px;
+}
+#section_nav_1{
+    color: white;
+    display: flex;
+}
+#logo{
+    width: 180px;
+}
+#conten_logo{
+    padding-top: 10px;
+    font-size: 28px;
+    width: 300px;
+}
+
+#text2_logo{
+    
+    font-size: 19px;
+}
+#section_nav_2{
+    color: white;
+}
+#main_header{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top:24px;
+    justify-content: space-around;
+    display: flex;
+    width: 500px;
+    list-style: none;
+}
+#conten_main_header_download{
+    background: linear-gradient(to right, #8041D3, #0F79D5);
+    padding: 10px;
+    margin-top:-10px;
+    border-radius: 3px;
+}
+/* final nav */
+/* seccion 1 */
+#section_1{
+display: flex;
+justify-content: space-between;
+height: 70vh;
+}
+#left{
+    background-color: #2E2550;
+    color: white;
+    align-content: center;
+    width: 50%;
+    border: 5px;
+}
+#conten_div_section_1{
+    position:relative;
+    left: 28%;
+    
+}
+#text_contens_section_1{
+    font-size: 30px;
+    width: 600px;
+    font-family: sans-serif;
+}
+#boton_section_1{
+    width: 400px;
+    border: 9px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.376);
+    border-width: 3px;
+    border-style: solid;display: flex;
+}
+#boton1{
+
+    width: 200px;
+    height: 60px;
+    border-radius: 9px;
+    margin: 5px;
+    border-color: rgba(255, 255, 255, 0);
+    font-family:sans-serif ;
+    font-size:20px;
+    color: #F2409B;
+}
+#boton2{
+
+    width: 200px;
+    height: 60px;
+    border-radius: 9px;
+    margin: 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    font-family:sans-serif ;
+    font-size:20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+#title_section_1{
+    font-size: 90px;
+    font-family: sans-serif;
+}
+#right{
+    background-image: url(../assets/images/hojasFondo.jpg);
+    background-size: cover;
+    width: 50%;
+}
+#imagen_section_1{
+    position:relative;
+    left: 37.2%;
+    top: 50px;
+    height: 500px;  
+   
+}
+
+
+/* final seccion 1 */

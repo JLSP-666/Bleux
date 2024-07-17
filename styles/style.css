@@ -385,34 +385,48 @@ footer{
 /* media query  */
 @media screen and (max-width: 1279px) {
     body {
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
     }
 
     /* section 1  */
     #conten_div_section_1{
         left: 50px;
+        width: 500px;
+
     }
     #title_section_1{
         font-size: 80px;
+        width: 310px;
     }
     #text_contens_section_1{
         font-size: 25px;
+        width: 500px;
     }
     /* final  */
     /* section 2  */
+   
     #image_section_2{
-        left: 5%;
+        left: 2%;
+       
     }
     #content_section_2{
-        left: 2%;
+        left: 0%;
+        width: 500px;
+       
     }
     #section_2{
-        height: 60vh;
+        height: 70vh;
+    }
+    #imagen_laptop{
+        width: 600px;
+    }
+    #content_section_2{
+        top: 10px;
     }
     /* final  */
     /* section 3  */
     #section_3{
-        height: givh;
+        height: 1000px;
     }
     #conten_section_3{
         left: 15%;
@@ -424,6 +438,94 @@ footer{
         width: 90%;
         height: 56%;
     }
+    #target_1{
+        height: 600px;
+    }
+    #target_2{
+        height: 600px;
+    }
+    #target_3{
+        height: 600px;
+    }
+   
     /* final  */
 }
+@media screen and (max-width: 920px) {
+    body {
+    background-color: rgb(255, 255, 255);
+    }
     
+    nav{
+        padding: 0px;
+    }
+    #section_nav_1{
+        width: 300px;
+    }
+
+    /* section 1  */
+    #conten_div_section_1{
+        width: 200px;
+    }
+    #title_section_1{
+        font-size: 70px;
+    }
+    #text_contens_section_1{
+        font-size: 20px;
+        width: 400px;
+    }
+    #boton_section_1{
+        width: 340px;
+    }
+    #boton1{
+        width: 160px;
+    }
+    #boton2{
+        width: 160px;
+
+    }
+    /* final section 1  */
+    /* section 2  */
+    #imagen_laptop{
+        width: 310px;
+        height: 260px;
+        position: relative;
+        left: 25px;
+        top: 50px;
+        }
+    #sup_title_setction_2{
+        font-size: 40px;
+    }
+    #Conten_section_2{
+        font-size: 20px;
+        width: 300px;
+    }
+    #image_section_2{
+        width: 400px;
+    }
+    #List_section_2{
+        width: 300px;
+    }
+    #image_section_2{
+        height: 400px;
+    }
+
+    /* final  */
+    /* section 3  */
+    #section_3{
+        height: 1000px;
+    }
+    #conten_section_3{
+        font-size: 18px;
+        width: 700px;
+    }
+    #target_1{
+        height: 620px;
+    }
+    #target_2{
+        height: 620px;
+    }
+    #target_3{
+        height: 620px;
+    }
+    /* final  */
+}

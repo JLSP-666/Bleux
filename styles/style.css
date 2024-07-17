@@ -529,3 +529,163 @@ footer{
     }
     /* final  */
 }
+@media screen and (max-width: 768px) {
+    body {
+    background-color: rgb(255, 255, 255);
+    }
+    #section_nav_1{
+        width: 200px;
+        height: 90px;
+    }
+    #text1_logo{
+        font-size: 25px;
+    }
+    #text2_logo{
+        font-size: 14px;
+    }
+    #title_section_1{
+        font-size: 50px;
+    }
+    #text_contens_section_1{
+        font-size: 19px;
+        width: 300px;
+    }
+    #boton_section_1{
+        width: 260px;
+    }
+    #boton1{
+        width: 120px;
+        height: 56px;
+        font-size: 15.3px;
+    }
+    #boton2{
+        width: 120px;
+        height: 56px;
+        font-size: 15.3px;
+    }
+    #imagen_section_1{
+        width:230px ;
+        height: 400px;
+    }
+    #sup_title_setction_2{
+        font-size: 34px;
+    }
+    #Conten_section_2{
+        font-size: 17px;
+    }
+    #sup_title2_setction_2{
+        font-size: 29px;
+    }
+    #List_section_2{
+        font-size: 20px;
+    }
+    #content_section_2{
+        width: 300px;
+        padding: 0px;
+    }
+    #imagen_laptop{
+        width: 300px;
+        height: 200px;
+    }
+    #conten_section_3{
+        font-size: 12px;
+        width: 600px;
+        left: 10%;
+    }
+    #List_section_2{
+        width: 240px;
+    }
+    #target_1{
+        height: 720px;
+    }
+    #target_2{
+        height: 720px;
+    }
+    #target_3{
+        height: 720px;
+    }
+    #conten_target{
+        width: 161px;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+    background-color: rgb(255, 255, 255);
+    }
+    #section_1{
+        display: flex;
+        flex-direction: column;
+    }
+    #conten_2{
+        flex-direction: column;
+    }
+    #target_total{
+        flex-direction: column;
+    }
+    #section_1{
+        height: 1000px;
+        width: 100%;
+        
+    }
+    #left{
+        width: 100%;
+    }
+    #section_2{
+        height: 1000px;
+        width: 100%;
+        
+    }
+    #section_3{
+        height: 2400px;
+        width: 100%;
+
+    }
+    nav{
+        flex-direction: column;
+        width: 100%;
+    }
+    #conten_section_3{
+        width: 80%;
+    }
+    footer{
+        flex-direction: column;
+    }
+    #footer_text{
+        width: 500px;
+        text-align: center;
+    }
+    #left{
+        height: 50%;
+    }
+    #right{
+        height: 50%;
+        width: 100%;
+    }
+    #conten_target{
+        width: 357px;
+        text-align: center;
+        
+    }
+    #title_section_3{
+        font-size: 60px;
+        position: relative;
+        top: 100px;
+    }
+    #imagen_section_1{
+        left: 140px;
+    }
+    #content_section_2{
+        left: 100px;
+    }
+    #image_section_2{
+        left: 70px;
+    }
+    #section_nav_1{
+        position: relative;
+        left: 130px;
+
+    }
+    #logo{
+        border-radius: 130%;
+    }
+}
